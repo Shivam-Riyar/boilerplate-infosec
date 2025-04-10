@@ -4,6 +4,9 @@ const app = express();
 
 const PORT = process.env.PORT || 3030;
 
+app.listen(PORT, () =>{
+  console.log('Info Sec Security Spp Started on Port $(PORT)');
+});
 
 
 
